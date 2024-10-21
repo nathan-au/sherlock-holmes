@@ -1,0 +1,86 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-image: url('background.png');
+  background-attachment: fixed;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+}
+
+button {
+  border: 2px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: silver;
+}
+
+.main {
+  border: 3px solid black;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.menuButton {
+  padding: 5px;
+  width: 100%;
+}
+
+.chapterButton {
+  padding: 5px;
+  width: 150px;
+}
+
+.advButton {
+  padding: 10px;
+  width: 50%;
+  margin: 5px;
+  font-size: medium;
+}
+
+#about {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.6);
+  padding-top: 100px;
+  display: none;
+}
+
+#aboutContent {
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  width: 500px;
+  text-align: center;
+  border: 3px solid black;
+  background-color: whitesmoke;
+}
+
+#close {
+  padding: 5px;
+  width: 75px;
+}
